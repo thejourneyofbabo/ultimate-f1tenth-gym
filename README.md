@@ -2,6 +2,20 @@
 
 This ROS2 workspace contains F1Tenth racing simulation and teleoperation tools for easy car control via terminal.
 
+## Clone Repository
+
+To clone this repository with its submodules:
+
+```bash
+git clone --recurse-submodules <repository-url>
+```
+
+Or if you already cloned the repository without submodules:
+
+```bash
+git submodule update --init --recursive
+```
+
 ## Packages
 
 ### f1tenth_gym_ros
