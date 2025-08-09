@@ -53,4 +53,16 @@ Multiple teleoperation options for controlling the simulated race car:
    ```
 
 ## Dependencies
+
+### System Dependencies
+```bash
+# Reinstall all dependencies
+rosdep install -i --from-path src --rosdistro humble -y
+
+# Install ROS2 Humble ackermann_msgs
+sudo apt update
+sudo apt install ros-humble-ackermann-msgs
+```
+
+### Python Dependencies
 - pynput (for key_teleop): `pip install pynput`
