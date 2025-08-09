@@ -1,0 +1,6 @@
+[submodule "src/f1tenth_gym_ros"]
+	path = src/f1tenth_gym_ros
+	url = https://github.com/thejourneyofbabo/f1tenth_gym_ros.git
+[submodule "src/teleop-tools"]
+	path = src/teleop-tools
+	url = https://github.com/2025-AILAB-Internship-F1TheBeast/teleop-tools.git
